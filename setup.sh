@@ -1,5 +1,6 @@
 !#/usr/bin/env bash
 echo "Setting up new development machine..."
+apt-get update && apt-get upgrade -y
 apt-get install zsh -y && chsh -s /bin/zsh
 apt-get install git -y
 apt-get install wget -y
