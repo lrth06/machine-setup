@@ -13,6 +13,7 @@ nvm install --lts
 nvm use --lts
 echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.zshrc
 source ~/.zshrc
+npm install -g yarn
 mkdir -p ~/github.com 
 mkdir -p ~/local $$ mkdir -p ~/local/node && mkdir -p ~/local/go
 mkdir -p ~/local/python
