@@ -5,8 +5,8 @@ apt-get install zsh -y && chsh -s /bin/zsh
 apt-get install git -y
 apt-get install wget -y
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash && source ~/.nvm/nvm.sh
-wget -c https://golang.org/dl/go1.17.2.linux-amd64.tar.gz
-tar -C /usr/local -xzf go1.17.2.linux-amd64.tar.gz
+wget -c https://golang.org/dl/go1.17.7.linux-amd64.tar.gz
+tar -C /usr/local -xzf go1.17.7.linux-amd64.tar.gz
 apt-get install python3 -y
 apt-get install python3-pip -y
 
